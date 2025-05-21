@@ -1,0 +1,26 @@
+Package: psyprojmarks
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Jane", "Doe",
+      email = "jane@example.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: More about what it does (maybe more than one line).
+    Continuation lines should be indented.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    dplyr (>= 1.1.4),
+    officer (>= 0.6.8),
+    openxlsx (>= 4.2.8),
+    purrr (>= 1.0.4),
+    readr (>= 2.1.5),
+    stringr (>= 1.5.1),
+    tibble
