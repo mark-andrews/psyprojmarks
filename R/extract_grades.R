@@ -89,13 +89,13 @@ join_grades <- function(path_a, path_b) {
 #' @title Write a joined-grades table to Excel
 #'
 #' @description
-#' Saves the output of [\code{join_grades()}] to an `.xlsx` workbook with:
+#' Saves the output of [join_grades()] to an `.xlsx` workbook with:
 #'
 #' * green ✔ ticks for agreements and red ✘ crosses for disagreements;
 #' * wrapped, top-aligned comment cells;
 #' * auto-fitted column widths plus a generous width for the comment columns.
 #'
-#' @param joined_grades_df A data frame returned by [\code{join_grades()}].
+#' @param joined_grades_df A data frame returned by [join_grades()].
 #' @param file Name of the Excel file to create (default `"results.xlsx"`).
 #'
 #' @return (Invisibly) the path of the written file.

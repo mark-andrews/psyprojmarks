@@ -7,7 +7,7 @@
 write_joined_grades(joined_grades_df, file = "results.xlsx")
 }
 \arguments{
-\item{joined_grades_df}{A data frame returned by \link{\code{join_grades()}}.}
+\item{joined_grades_df}{A data frame returned by \code{\link[=join_grades]{join_grades()}}.}
 
 \item{file}{Name of the Excel file to create (default \code{"results.xlsx"}).}
 }
@@ -15,7 +15,7 @@ write_joined_grades(joined_grades_df, file = "results.xlsx")
 (Invisibly) the path of the written file.
 }
 \description{
-Saves the output of \link{\code{join_grades()}} to an \code{.xlsx} workbook with:
+Saves the output of \code{\link[=join_grades]{join_grades()}} to an \code{.xlsx} workbook with:
 \itemize{
 \item green ✔ ticks for agreements and red ✘ crosses for disagreements;
 \item wrapped, top-aligned comment cells;
